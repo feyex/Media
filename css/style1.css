@@ -1,0 +1,168 @@
+body {
+  font-family: "Source Sans Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-weight: 700; 
+}
+
+p{
+  line-height: 1.6;
+  margin:0 0 35px;
+}
+
+
+a,
+a:hover,
+a:focus,
+a:active,
+a.active {
+  outline: none;
+}
+a {
+  color: rgb(211, 48, 48);
+}
+a:hover,
+a:focus,
+a:active,
+a.active {
+  color: #fff;
+}
+
+header.masthead {
+  position: relative;
+  background-color: #343a40;
+  background: url("../img/cinema.jpg") no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  padding-top: 10rem;
+  padding-bottom: 8rem; 
+}
+header.masthead .overlay {
+  position: absolute;
+  background-color: rgb(222, 224, 235);
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  opacity: 0.3; 
+}
+
+header.masthead h1 {
+  font-size: 2rem; 
+}
+
+@media (min-width: 768px) {
+  header.masthead {
+    padding-top: 12rem;
+    padding-bottom: 12rem;
+  }
+  header.masthead h1 {
+    font-size: 3rem; 
+  } 
+}
+
+.navbar-bran:hover {
+    color: white;
+  }
+
+  .navbar-bran {
+    font-size:2.25rem;
+  }
+.welcome {
+    margin-top: -130px;
+    font-size: 4.5rem;
+    font-weight: 800;
+  }
+  
+  .content-section {
+    padding: 90px 0;
+    margin-top: 0rem;
+  }
+
+  .new{
+      color: rgb(10, 10, 10);
+      font-weight: 900;
+  }
+
+  .total {
+    position: relative;
+    background-color: #343a40;
+    background: url("../img/media.png") no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    padding-top: 8rem;
+    padding-bottom: 8rem; 
+  }
+
+  .total1 {
+    position: relative;
+    background-color: #0d0d0e;
+   /* background: url("../img/.jpg") no-repeat center center;*/
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    padding-top: 8rem;
+    padding-bottom: 8rem; 
+  }
+  .na{
+      float: right;
+  }
+
+  .modal-header{
+      color:red;
+      opacity: 0.3;
+     
+  }
+
+  .modal-body{
+    opacity: 0.4;
+}
+
+.nb{
+  
+  border-radius: 20px;
+  border-color: darkred;
+  color: darkred;
+}
+
+.insight{
+  position: relative;
+    background-color: #21789b;
+    height: 30%;
+    width: 100%;
+    padding-top: 8rem;
+    padding-bottom: 8rem; 
+}
+
+.rule{
+  padding-bottom: 2.0rem;
+}
+
+.rul {
+  margin-top: 0rem;
+  margin-bottom: 4rem;
+  border: 0;
+  border-top: 3px solid rgba(211, 2, 2, 0.1);
+  width: 175px;
+}
+
+.man{
+    padding-top: 13rem;
+}
+
+.imag{
+  height: 80%;
+  width: 100%;
+}
